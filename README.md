@@ -1,5 +1,7 @@
 # m2nasm
-Converts MASM to NASM 
+Converts MASM to NASM<br> 
+After sufficient masm coverage and stability is achieved the goal is to port to C and ask the gcc team to add nasm as an output option. 
+
 ```shell
 Usage: m2nasm.bsh [-h] <file>
 
