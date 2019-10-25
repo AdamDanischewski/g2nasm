@@ -1,12 +1,11 @@
-# m2nasm
-Converts MASM to NASM<br> 
-After sufficient masm coverage and stability is achieved the goal is to port to C and try to get nasm added as an output option for gcc. 
+# g2nasm
+Converts GAS ASM to NASM<br> 
 
 ```shell
-Usage: m2nasm.bsh [-h] <file>
+Usage: g2nasm.bsh [-h] <file>
 
  <file>: Masm asm file.
-         gcc -S -o code.masm code.c ## file=code.masm
+         gcc -S -o code.gasm code.c ## file=code.gasm
 
  OPTIONS:
          -h|--help           Usage
